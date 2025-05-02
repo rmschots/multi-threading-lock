@@ -1,3 +1,7 @@
+multi-threading-lock-before [![Maven Central](https://img.shields.io/maven-central/v/com.rmschots.maven-plugins/multi-threading-lock-before)](https://central.sonatype.com/artifact/com.rmschots.maven-plugins/multi-threading-lock-before)
+
+multi-threading-lock-after [![Maven Central](https://img.shields.io/maven-central/v/com.rmschots.maven-plugins/multi-threading-lock-after)](https://central.sonatype.com/artifact/com.rmschots.maven-plugins/multi-threading-lock-after)
+
 # Multi-Threading Lock
 
 ## Overview
@@ -24,7 +28,7 @@ To use this plugin, include it in your `pom.xml` file:
 
 <plugins>
     <plugin>
-        <groupId>be.rmschots.maven-plugins</groupId>
+        <groupId>com.rmschots.maven-plugins</groupId>
         <artifactId>multi-threading-lock-before</artifactId>
         <version>1.0.0</version>
         <executions>
@@ -45,7 +49,7 @@ To use this plugin, include it in your `pom.xml` file:
         ... <!-- a plugin that should not be executed in parallel -->
     </plugin>
     <plugin>
-        <groupId>be.rmschots.maven-plugins</groupId>
+        <groupId>com.rmschots.maven-plugins</groupId>
         <artifactId>multi-threading-lock-after</artifactId>
         <version>1.0.0</version>
         <executions>
