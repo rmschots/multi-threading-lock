@@ -15,6 +15,9 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.concurrent.TimeUnit;
 
+/**
+ * A Maven plugin that acquires a lock with the given name.
+ */
 @Mojo(name = "lock", threadSafe = true)
 public class MultiThreadingLockBeforeMojo extends AbstractMojo {
     /**

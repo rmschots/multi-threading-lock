@@ -12,6 +12,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+/**
+ * A Maven plugin that releases a lock with the given name.
+ */
 @Mojo(name = "unlock", threadSafe = true)
 public class MultiThreadingLockAfterMojo extends AbstractMojo {
     /**
